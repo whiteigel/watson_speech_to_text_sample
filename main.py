@@ -5,9 +5,8 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 S2T_API = os.environ.get('S2T_API')
 LT_API = os.environ.get('LT_API')
-
-S2T_URL = 'https://api.eu-de.speech-to-text.watson.cloud.ibm.com/instances/a7d6af82-870d-44b1-86dd-2ce182b91144'
-LT_URL = 'https://api.eu-de.language-translator.watson.cloud.ibm.com/instances/d9369b3b-9ec6-455a-887c-f6888fc33599'
+S2T_URL = os.environ.get('S2T_URL')
+LT_URL = os.environ.get('LT_URL')
 FILENAME = 'PolynomialRegressionandPipelines.mp3'
 version_lt = '2018-05-01'
 
