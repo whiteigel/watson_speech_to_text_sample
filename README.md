@@ -4,3 +4,5 @@ Here is a sample of usage IBM Watson API for converting speech to text and trans
 To run you need to create 'Speech to Text', 'Language Translator' at IBM cloud and get APIs and URLs for access.
 
 Use 'ru', 'fr', 'de'... language acronym choice, while asked for input.
+
+Telegram alerting added. Subject to Telegram message length.
