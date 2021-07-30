@@ -29,9 +29,9 @@ def lang_translator(key, url, text, lang):
     language_translator.set_service_url(url)
     translation_response = language_translator.translate(text=text, model_id=f'en-{lang}')
     translation = translation_response.get_result()
-    russian_translation = translation['translations'][0]['translation']
-    print(russian_translation)
-    return russian_translation
+    res_translation = translation['translations'][0]['translation']
+    print(res_translation)
+    return res_translation
 
 
 if __name__ == '__main__':
